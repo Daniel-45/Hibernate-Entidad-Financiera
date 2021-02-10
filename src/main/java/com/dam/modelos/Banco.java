@@ -29,7 +29,7 @@ import lombok.Singular;
 @AllArgsConstructor
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Entity
-@Table(name = "ENTIDADES_FINANCIERAS")
+@Table(name = "ENTIDADES_FINANCIERAS_HIBERNATE")
 public class Banco implements Serializable {
 
 	// Atributos

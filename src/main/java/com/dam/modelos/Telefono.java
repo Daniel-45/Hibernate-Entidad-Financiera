@@ -26,7 +26,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Entity
-@Table(name = "AGENDAS")
+@Table(name = "TELEFONOS_CLIENTES_HIBERNATE")
 public class Telefono implements Serializable {
 
 	// Atributos

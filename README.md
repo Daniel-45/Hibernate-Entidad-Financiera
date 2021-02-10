@@ -17,3 +17,10 @@ La aplicación permite realizar las siguientes operaciones:
 9 . Mostrar el saldo total de la entidad bancaria  
 0 . Salir de la aplicación
 
+## Requisitos
+
+Es necesario tener instalado:
+
+* Eclipse IDE 2020-03 o superior [https://www.eclipse.org/downloads/](https://www.eclipse.org/downloads/)
+
+* H2 Database Engine [https://www.h2database.com/html/main.html](https://www.h2database.com/html/main.html)

@@ -37,7 +37,7 @@ import lombok.experimental.SuperBuilder;
 @AllArgsConstructor
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Entity
-@Table(name = "CUENTAS")
+@Table(name = "CUENTAS_HIBERNATE")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(name = "DIS", discriminatorType = DiscriminatorType.STRING)
 public abstract class Cuenta implements Serializable {
